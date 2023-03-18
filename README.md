@@ -1,5 +1,3 @@
-BLABLABLA
-
 # Résumé des documents utilisés pour la collecte des données sur l'impact des matières: #
 
 - "Environmental impacts of textile production and use" de T.E. Graedel et al. (2009) examine l'impact environnemental global de la production et de l'utilisation de textiles en examinant les différents stades du cycle de vie, tels que la production de matières premières, la fabrication, la distribution, l'utilisation et l'élimination des textiles.
@@ -226,4 +224,9 @@ Ainsi, les KPI normalisés ont été calculés comme suit:
 - Score de responsabilité sociale : moyenne du score de bien-être humain et d'une valeur de 1 si les conditions de travail sont dangereuses ou de 10 si elles sont sûres, a ca est ponderé le bien etre humain puis normalisé entre 0 et 10.
 
 
-ca me casse
+### 2- Annalyse appronfondie du dataset
+Maintenat que nous avont des KPI coerant et que vous avont bien compris nos données grace a la V0 il est temps de rentré dans le detail afin de verifier que le datase est pret a la modelisation et d'essayer de trouvé des modeles coherent avec nos donnée.
+
+Avant de visualisé ce dataset, il faut savoire qu'il a une tres forte dimentionalité (nommbre de variables/colones) ce qui rend plus difficila ca comprehension.
+Afin de paller a ce probleme, nous avont plusieur solution, la premieres et d'utilis;e des graphique addapté telle que la visualisation en `coordonees parralelle` qui permet de suivre l'evolution de nos variable et utilisé des technique de reduction dimentionels. Nous allon faire les deux.
+- `parallel coordinates`
