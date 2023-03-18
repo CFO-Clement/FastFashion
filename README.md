@@ -1,3 +1,5 @@
+BLABLABLA
+
 # Résumé des documents utilisés pour la collecte des données sur l'impact des matières: #
 
 - "Environmental impacts of textile production and use" de T.E. Graedel et al. (2009) examine l'impact environnemental global de la production et de l'utilisation de textiles en examinant les différents stades du cycle de vie, tels que la production de matières premières, la fabrication, la distribution, l'utilisation et l'élimination des textiles.
