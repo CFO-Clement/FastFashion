@@ -229,4 +229,6 @@ Maintenat que nous avont des KPI coerant et que vous avont bien compris nos donn
 
 Avant de visualisé ce dataset, il faut savoire qu'il a une tres forte dimentionalité (nommbre de variables/colones) ce qui rend plus difficila ca comprehension.
 Afin de paller a ce probleme, nous avont plusieur solution, la premieres et d'utilis;e des graphique addapté telle que la visualisation en `coordonees parralelle` qui permet de suivre l'evolution de nos variable et utilisé des technique de reduction dimentionels. Nous allon faire les deux.
-- `parallel coordinates`
+- `parallel coordinates`:
+![parallel coordinates](figure.svg "parallel coordinates")
+En annalysant ce graphique on remarque
