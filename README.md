@@ -223,3 +223,5 @@ Ainsi, les KPI normalisés ont été calculés comme suit:
 - Score de bien-être humain : valeur du bien-être humain, puis normalisé entre 0 et 10.
 - Score de responsabilité sociale : moyenne du score de bien-être humain et d'une valeur de 1 si les conditions de travail sont dangereuses ou de 10 si elles sont sûres, a ca est ponderé le bien etre humain puis normalisé entre 0 et 10.
 
+
+ca me casse
