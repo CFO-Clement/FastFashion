@@ -231,4 +231,10 @@ Avant de visualisé ce dataset, il faut savoire qu'il a une tres forte dimention
 Afin de paller a ce probleme, nous avont plusieur solution, la premieres et d'utilis;e des graphique addapté telle que la visualisation en `coordonees parralelle` qui permet de suivre l'evolution de nos variable et utilisé des technique de reduction dimentionels. Nous allon faire les deux.
 - `parallel coordinates`:
 ![parallel coordinates](images/parallel_Cotton.svg "parallel coordinates")
-En annalysant ce graphique on remarque plusieurs choses, notament que cetaine varible n'ont pas trop d'importence comme `Hemp` et on remaque aussi qu'un `Cotton` elevlé tend a des KPIs elevé
+En annalysant ce graphique on remarque plusieurs choses, notament que cetaine varible n'ont pas trop d'importence comme `Hemp` et on remaque aussi qu'un `Cotton` elevé tend a des KPIs elevé.
+
+On peux aussi regarder le graphique colorié en fonction de nos KPIs, par exemple, si on regarde pour `social Responsibility Score`:
+![parallel coordinates](images/parallel_social Responsibility Score_color.svg "parallel coordinates")
+On remaque que les vetements comportant un fort taux de `Viscose` ont un `social Responsibility Score` faible. Ce qui est logique car la viscose est matière chimique artificielle fabriquée à base de bois gras réduit en copeaux ou de pâte de bois trempé dans de la soude. Donc ayant un impact social important car les condition de travail avec de tell matieres sont mauvaise.
+
+Vous trouverais les graphique pour chaque variables dans le dossier `images` de ce repo.
