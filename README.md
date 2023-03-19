@@ -228,7 +228,11 @@ Ainsi, les KPI normalisés ont été calculés comme suit:
 Maintenat que nous avont des KPI coerant et que vous avont bien compris nos données grace a la V0 il est temps de rentré dans le detail afin de verifier que le datase est pret a la modelisation et d'essayer de trouvé des modeles coherent avec nos donnée.
 
 Avant de visualisé ce dataset, il faut savoire qu'il a une tres forte dimentionalité (nommbre de variables/colones) ce qui rend plus difficila ca comprehension.
-Afin de paller a ce probleme, nous avont plusieur solution, la premieres et d'utilis;e des graphique addapté telle que la visualisation en `coordonees parralelle` qui permet de suivre l'evolution de nos variable et utilisé des technique de reduction dimentionels. Nous allon faire les deux.
+Afin de paller a ce probleme, nous avont plusieur solution, la premieres et d'utilis;e des graphique addapté telle que la visualisation en `coordonees parralelle` ou des `matrice de correlation` qui permet de suivre l'evolution de nos variable et utilisé des technique de reduction dimentionels. Nous allon faire les deux.
+- `Matrice de correlation`:
+![Matrice de correlation](images/correlation/corr_heatmap.svg "Matrice de correlation")
+On remarque directement que certaine variable sont corréle. Notament le `Cotton` qui est en lien directe avec avec nos nos KPI "social". On remarque aussi un corrélation assez élevé entre nos KPIs, ce qui est logique car ils reflete tous diferente aspect d'une meme chose. Cependant leures correlation est suffisament faible pour que nous puissions les utilisé ensemble.
+
 - `parallel coordinates`:
 ![parallel coordinates](images/parallel/parallel_Cotton.svg "parallel coordinates")
 En annalysant ce graphique on remarque plusieurs choses, notament que cetaine varible n'ont pas trop d'importence comme `Hemp` et on remaque aussi qu'un `Cotton` elevé tend a des KPIs elevé.
