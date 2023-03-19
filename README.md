@@ -239,6 +239,23 @@ En annalysant ce graphique on remarque plusieurs choses, notament que cetaine va
 
 On peux aussi regarder le graphique colorié en fonction de nos KPIs, par exemple, si on regarde pour `social Responsibility Score`:
 ![parallel coordinates](images/parallel/parallel_Social_Responsibility_Score.svg "parallel coordinates")
+
 On remaque que les vetements comportant un fort taux de `Viscose` ont un `social Responsibility Score` faible. Ce qui est logique car la viscose est matière chimique artificielle fabriquée à base de bois gras réduit en copeaux ou de pâte de bois trempé dans de la soude. Donc ayant un impact social important car les condition de travail avec de tell matieres sont mauvaise.
 
 Vous trouverais les graphique pour chaque variables dans le dossier `images/parallel` de ce repo.
+
+- 2D_TSNE:
+Le `t-SNE` est une technique de réduction de dimensionnalité non linéaire qui est particulièrement adaptée à la visualisation de données de haute dimension. Il est particulièrement utile pour visualiser des données de haute dimension dans un espace à deux dimensions, ce qui permet de les visualiser et de les analyser. Il est également utilisé pour la visualisation de données de haute dimension dans un espace à trois dimensions.
+Ici, nous avont donc utilisé le `t-SNE` afin de reduire nos données a 2 dimensions afin de les visualisé facilement dans leurs globalité.
+![2D_TSNE](images/2D_TSNE_dencity.svg "2D_TSNE")
+Nous observont sur ce graphique nos données reduite a 2 dimention colorié en fonction de la dencié par regions.
+En annalysant, nous avont l'impression de voire 2 ou 3 cluster entremelé. Il est difficile de faire une conclusion avancé avec ce grahique a par que nos données semble assez centré avec cependent des `Points fort` a certain endroit.
+Afin de s'en assuré nous alons ajouté une dimention afin de pouvoir voire ce qui ce cache sous cette fameuse `densité`.
+
+-3D_TSNE:
+![3D_TSNE](images/3D_TSNE_Human_Welfare_Score.svg "#D_TSNE")
+Ce graphique represente nos données reduite a 3 dimention colorié en fonction de notre KPI `Human Welfare Score`.
+Evidenment cette image est une projection 2D de la visualisation 3D que j'ai. J'ai donc facilement pu faire tourner la visualisation 3D afin de voir les données sous un autre angle et remarqué tres clairement une mutitude de petit cluster assez proche les un des autres. Cela nous permet de confirmer que nos données sont pretes a etre modelisé.
+Vous pouvez trouver les graphique 3D dans le dossier `images/` de ce repo avec le prefix `3D_TSNE_`.
+
+
