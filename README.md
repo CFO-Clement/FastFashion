@@ -230,15 +230,15 @@ Maintenat que nous avont des KPI coerant et que vous avont bien compris nos donn
 Avant de visualisé ce dataset, il faut savoire qu'il a une tres forte dimentionalité (nommbre de variables/colones) ce qui rend plus difficila ca comprehension.
 Afin de paller a ce probleme, nous avont plusieur solution, la premieres et d'utilis;e des graphique addapté telle que la visualisation en `coordonees parralelle` ou des `matrice de correlation` qui permet de suivre l'evolution de nos variable et utilisé des technique de reduction dimentionels. Nous allon faire les deux.
 - `Matrice de correlation`:
-![Matrice de correlation](images/corr_heatmap.svg "Matrice de correlation")
+![Matrice de correlation](images/DataSet/corr/corr_heatmap.svg "Matrice de correlation")
 On remarque directement que certaine variable sont corréle. Notament le `Cotton` qui est en lien directe avec avec nos nos KPI "social". On remarque aussi un corrélation assez élevé entre nos KPIs, ce qui est logique car ils reflete tous diferente aspect d'une meme chose. Cependant leures correlation est suffisament faible pour que nous puissions les utilisé ensemble.
 
 - `parallel coordinates`:
-![parallel coordinates](images/parallel/parallel_Cotton.svg "parallel coordinates")
+![parallel coordinates](images/DataSet/parallel/parallel_Cotton.svg "parallel coordinates")
 En annalysant ce graphique on remarque plusieurs choses, notament que cetaine varible n'ont pas trop d'importence comme `Hemp` et on remaque aussi qu'un `Cotton` elevé tend a des KPIs elevé.
 
 On peux aussi regarder le graphique colorié en fonction de nos KPIs, par exemple, si on regarde pour `social Responsibility Score`:
-![parallel coordinates](images/parallel/parallel_Social_Responsibility_Score.svg "parallel coordinates")
+![parallel coordinates](images/DataSet/parallel/parallel_Social_Responsibility_Score.svg "parallel coordinates")
 
 On remaque que les vetements comportant un fort taux de `Viscose` ont un `social Responsibility Score` faible. Ce qui est logique car la viscose est matière chimique artificielle fabriquée à base de bois gras réduit en copeaux ou de pâte de bois trempé dans de la soude. Donc ayant un impact social important car les condition de travail avec de tell matieres sont mauvaise.
 
@@ -247,13 +247,13 @@ Vous trouverais les graphique pour chaque variables dans le dossier `images/para
 - 2D_TSNE:
 Le `t-SNE` est une technique de réduction de dimensionnalité non linéaire qui est particulièrement adaptée à la visualisation de données de haute dimension. Il est particulièrement utile pour visualiser des données de haute dimension dans un espace à deux dimensions, ce qui permet de les visualiser et de les analyser. Il est également utilisé pour la visualisation de données de haute dimension dans un espace à trois dimensions.
 Ici, nous avont donc utilisé le `t-SNE` afin de reduire nos données a 2 dimensions afin de les visualisé facilement dans leurs globalité.
-![2D_TSNE](images/2D_TSNE_dencity.svg "2D_TSNE")
+![2D_TSNE](images/DataSet/TSNE/2D_TSNE_dencity.svg "2D_TSNE")
 Nous observont sur ce graphique nos données reduite a 2 dimention colorié en fonction de la dencié par regions.
 En annalysant, nous avont l'impression de voire 2 ou 3 cluster entremelé. Il est difficile de faire une conclusion avancé avec ce grahique a par que nos données semble assez centré avec cependent des `Points fort` a certain endroit.
 Afin de s'en assuré nous alons ajouté une dimention afin de pouvoir voire ce qui ce cache sous cette fameuse `densité`.
 
 -3D_TSNE:
-![3D_TSNE](images/3D_TSNE_Human_Welfare_Score.svg "#D_TSNE")
+![3D_TSNE](images/DataSet/TSNE/3D_TSNE_Human_Welfare_Score.svg "#D_TSNE")
 Ce graphique represente nos données reduite a 3 dimention colorié en fonction de notre KPI `Human Welfare Score`.
 Evidenment cette image est une projection 2D de la visualisation 3D que j'ai. J'ai donc facilement pu faire tourner la visualisation 3D afin de voir les données sous un autre angle et remarqué tres clairement une mutitude de petit cluster assez proche les un des autres. Cela nous permet de confirmer que nos données sont pretes a etre modelisé.
 Vous pouvez trouver les graphique 3D dans le dossier `images/` de ce repo avec le prefix `3D_TSNE_`.
