@@ -1,0 +1,27 @@
+Material,Organic,Water_Use_kg/kg,Fossil_Energy_kg/kg,Greenhouse_Gas_kgCO2eq/kg,Land_use_m2/kg,Animal_Welfare_Score,Human_Welfare_Score,Country_of_Origin,Production_Method,Transport_Distance_km,Water_Source,Dyeing_Method,Packaging_Material,Waste_Management,Labor_Conditions
+Cotton,1,11,14,3.6,0.8,7,9,India,Conventional,2000,Rainwater,Natural,Fiber-Based,Recycling,Fair
+Organic_cotton,1,11,14,3.6,0.8,8,9,India,Sustainable,2000,Rainwater,Natural,Fiber-Based,Recycling,Fair
+Linen,1,6,15,1.5,2.5,9,8,Belgium,Sustainable,1500,Surface Water,Natural,Fiber-Based,Composting,Fair
+Hemp,1,4,11,1.9,2.0,9,9,China,Sustainable,3000,Surface Water,Natural,Fiber-Based,Composting,Fair
+Jute,1,3,8,1.7,3.0,8,8,Bangladesh,Sustainable,5000,Surface Water,Natural,Fiber-Based,Composting,Fair
+Other_plant,1,8,12,2.2,1.5,7,7,Colombia,Conventional,8000,Rainwater,Synthetic,Plastic,Incineration,Unsafe
+Silk,0,20,24,10.4,35.0,6,9,China,Conventional,5000,Groundwater,Synthetic,Plastic,Incineration,Unsafe
+Wool,1,43,40,11.2,14.0,9,9,Australia,Conventional,10000,Rainwater,Natural,Fiber-Based,Recycling,Fair
+Leather,0,168,252,85.0,310.0,4,6,Italy,Conventional,2000,Surface Water,Synthetic,Plastic,Incineration,Unsafe
+Camel,0,30,28,6.4,15.0,7,8,Mongolia,Sustainable,10000,Rainwater,Natural,Fiber-Based,Composting,Fair
+Cashmere,0,32,28,11.6,50.0,5,6,Mongolia,Sustainable,10000,Rainwater,Natural,Fiber-Based,Composting,Fair
+Alpaca,0,48,30,12.8,40.0,8,7,Peru,Sustainable,8000,Rainwater,Natural,Fiber-Based,Composting,Fair
+Feathers,0,3,3,0.6,1.0,5,6,China,Conventional,5000,Surface Water,Synthetic,Plastic,Incineration,Unsafe
+Other_animal,0,20,16,6.4,20.0,4,5,Indonesia,Conventional,10000,Surface Water,Synthetic,Plastic,Incineration,Unsafe
+Polyester,0,35,50,20.4,2.0,3,4,China,Conventional,8000,Groundwater,Synthetic,Plastic,Incineration,Unsafe
+Nylon,0,40,45,15.2,5.0,4,,China,Conventional,8000,Groundwater,Synthetic,Plastic,Incineration,Unsafe
+Acrylic,0,100,82,36.2,10.0,2,,China,Conventional,8000,Groundwater,Synthetic,Plastic,Incineration,Unsafe
+Spandex,0,80,90,29.6,5.0,3,,China,Conventional,8000,Groundwater,Synthetic,Plastic,Incineration,Unsafe
+Elastane,0,80,90,29.6,5.0,3,,China,Conventional,8000,Groundwater,Synthetic,Plastic,Incineration,Unsafe
+Polyamide,0,50,55,22.0,2.0,4,,China,Conventional,8000,Groundwater,Synthetic,Plastic,Incineration,Unsafe
+Other_synthetic,0,70,80,35.6,3.0,3,,China,Conventional,8000,Groundwater,Synthetic,Plastic,Incineration,Unsafe
+Lyocell,1,5,5,2.2,1.5,9,,Austria,Sustainable,1000,Surface Water,Natural,Fiber-Based,Composting,Fair
+Viscose,0,5,6,3.6,1.5,5,,China,Conventional,8000,Surface Water,Synthetic,Plastic,Incineration,Unsafe
+Acetate,0,20,30,9.4,1.0,3,,China,Conventional,8000,Groundwater,Synthetic,Plastic,Incineration,Unsafe
+Modal,0,5,6,2.2,1.5,5,,Austria,Sustainable,1000,Surface Water,Natural,Fiber-Based,Composting,Fair
+Rayon,0,5,6,3.6,1.5,5,,China,Conventional,8000,Surface Water,Synthetic,Plastic,Incineration,Unsafe
